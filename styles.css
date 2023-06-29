@@ -1,0 +1,185 @@
+@font-face {
+    font-family: planet kosmos;
+    src: url(planet_kosmos\ \(1\).zip);
+}
+.fuente-principal{
+    font-family: 'Cormorant Unicase', serif;
+}
+
+.bg-green {
+    background-color: #2c532c !important;
+}
+
+
+.dropdown-menu {
+    background-color: #dcdca6;
+}
+
+.dropdown-item:hover {
+    background-color: #2c532c;
+    color: #dcdca6;
+}
+
+.img-carrousel{
+    height: 100vh;
+}
+
+
+.comentario {
+    font-size: 2em;
+    color: #dcdca6;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.comentario-titulo {
+    font-size: 2.5em;
+    font-family: planet kosmos;
+}
+
+.comentario-boton {
+    padding: 0.8em 1.8em;
+    border: 2px solid #dcdca6;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #dcdca6;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.comentario-boton::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(35deg);
+    background: #dcdca6;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.comentario-boton:hover::before {
+    width: 105%;
+}
+
+.comentario-boton:hover {
+    color: #2c532c;
+}
+
+.foto-div {
+    background-image: url(assets/unnamed.enligthed.png);
+
+}
+
+.jumbotron {
+    height: 200vh;
+    border-radius: 0;
+    background-color: #dcdca6;
+}
+
+.imagen {
+    background-image: url(assets/camisa5.jpg);
+    height: 500px;
+    width: 400px;
+    background-position: center;
+    margin-left: 200px;
+}
+
+.texto-divisor {
+    color: #2c532c;
+}
+
+.cards-inicio {
+    width: 100%;
+    height: 85%;
+    border: #dcdca6;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.card-body {
+    background-color: #dcdca6 !important;
+}
+
+.card-text {
+    color: #2c532c;
+}
+
+.card-title {
+    color: #2c532c;
+}
+
+.btn-primary {
+    background-color: #2c532c;
+    color: #dcdca6;
+    border: #2c532c;
+    transition: 2s;
+}
+
+.btn-primary:hover {
+    background-color: #2c532c6e;
+    color: #ffffff;
+}
+
+/* pagina contacto */
+
+.btn-contacto {
+    margin: 8px;
+}
+
+.container-contacto {
+    background-color: #c9c3c38a;
+    padding: 20px;
+}
+
+.container-fluid-contacto {
+    margin-top: 30px;
+    height: 300px;
+}
+.titulo-contacto{
+    color: #2c532c;
+}
+
+/* pagina sobre nosotros */
+
+.sobrenosotros-h1 {
+    margin: 30px;
+    font-size: 80px;
+    background-color: #2c532c;
+    background-size: auto;
+    color: #dcdca6;
+    padding: 20px;
+}
+
+.titulos-sn {
+    color: #2c532c;
+}
+
+.imagenes-sn {
+    height: 70vh;
+    width: 100%;
+}
+.color-fondo{
+    background-color: #dcdca6;
+}
+
+
+/* footer */
+
+.footer-margin {
+    margin-top: 45px;
+}
+
+.links-footer li a {
+    color: #ffffff;
+}
