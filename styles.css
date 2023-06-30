@@ -2,7 +2,8 @@
     font-family: planet kosmos;
     src: url(planet_kosmos\ \(1\).zip);
 }
-.fuente-principal{
+
+.fuente-principal {
     font-family: 'Cormorant Unicase', serif;
 }
 
@@ -20,7 +21,7 @@
     color: #dcdca6;
 }
 
-.img-carrousel{
+.img-carrousel {
     height: 100vh;
 }
 
@@ -146,14 +147,15 @@
     margin-top: 30px;
     height: 300px;
 }
-.titulo-contacto{
+
+.titulo-contacto {
     color: #2c532c;
 }
 
 /* pagina sobre nosotros */
 
 .sobrenosotros-h1 {
-    margin: 30px;
+    margin: 16px;
     font-size: 80px;
     background-color: #2c532c;
     background-size: auto;
@@ -169,7 +171,8 @@
     height: 70vh;
     width: 100%;
 }
-.color-fondo{
+
+.color-fondo {
     background-color: #dcdca6;
 }
 
@@ -182,4 +185,42 @@
 
 .links-footer li a {
     color: #ffffff;
+}
+
+/* Pagina productos */
+
+.titulo-productos{
+    color: #dcdca6;
+    background-color: #2c532c;
+    margin: 30px;
+    font-size: 75px;
+}
+.aside-productos{
+    padding: 15px 60px 15px 60px;
+    height: 85vh;
+}
+
+.box-productos{
+    height: 100%;
+    width: 100%;
+}
+.form-check-input{
+    accent-color: #2c532c;
+}
+.links-productos{
+    text-decoration: none;
+    color: #2c532c;
+}
+.links-productos:hover{
+    color: #000000;
+}
+.cards-margin{
+    margin-bottom: 20px !important;
+}
+.card-title-compra{
+    font-size: 1.5em;
+}
+.btn-compras{
+    width: 80%;
+    transition: 1s;
 }
