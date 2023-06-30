@@ -22,7 +22,7 @@
 }
 
 .img-carrousel {
-    height: 100vh;
+    height: 90vh;
 }
 
 
@@ -75,25 +75,6 @@
 
 .comentario-boton:hover {
     color: #2c532c;
-}
-
-.foto-div {
-    background-image: url(assets/unnamed.enligthed.png);
-
-}
-
-.jumbotron {
-    height: 200vh;
-    border-radius: 0;
-    background-color: #dcdca6;
-}
-
-.imagen {
-    background-image: url(assets/camisa5.jpg);
-    height: 500px;
-    width: 400px;
-    background-position: center;
-    margin-left: 200px;
 }
 
 .texto-divisor {
