@@ -1,11 +1,318 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/22907d95e3.js" crossorigin="anonymous"></script>
+    <title>pantalones | zully</title>
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-md bg-green navbar-dark">
+        <a class="navbar-brand" href="index.html">ZULLY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Productos
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Camisas.html">Camisas</a>
+                        <a class="dropdown-item" href="Pantalones.html">Pantalones</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Productos</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Sobrenosotros.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="titulo-productos text-center fuente-principal">Pantalones</h1>
+    <div class="row justify-content-around">
+        <div class="col-3 aside-productos">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <h5>Nuestros Productos</h5>
+                    <a href="camisas.html" class="links-productos">Camisas</a><br>
+                    <a href="pantalones.html" class="links-productos">Pantalones</a>
+                </li>
+                <li class="list-group-item">
+                    <h5>Marcas de ropa</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Nike <small>(33)</small>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Enligthed <small>(26)</small>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Adidas <small>(10)</small>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            New Balance <small>(4)</small>
+                        </label>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <h5>Estado</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Como nuevo
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            Poco usado
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Usado
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            Muy usado
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Mostrar todo
+                        </label>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <h5>Talla</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadio" id="exampleRadios2"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios2">
+                            XL
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadio" id="exampleRadios2"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            L
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadio" id="exampleRadios2"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            M
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadio" id="exampleRadios2"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            S
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadio" id="exampleRadios2"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            XS
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-8 box-productos">
+            <div class="card-deck">
+                <div class="card">
+                    <a href=""><img src="assets/pantalonbeige.jpg" class="card-img-top zoom"
+                            alt="pantalon beige"></a>
+                    <div class="card-body cards-margin">
+                        <h5 class="card-title fuente-principal card-title-compra">jooger <small>$90</small>
+                        </h5>
+                        <p class="card-text"><strong>Estado: </strong>Poco uso</p>
+                        <a href="#" class="btn btn-primary btn-compras">comprar <i class="fa-solid fa-credit-card"
+                                style="color: #dcdca6;"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href=""><img src="assets/pantalonnike.jpeg" class="card-img-top zoom" alt="pantalonnike"></a>
+                    <div class="card-body cards-margin">
+                        <h5 class="card-title fuente-principal card-title-compra">Nike pant <small>$85</small></h5>
+                        <p class="card-text"><strong>Estado: </strong>Poco uso</p>
+                        <a href="#" class="btn btn-primary btn-compras">comprar <i class="fa-solid fa-credit-card"
+                                style="color: #dcdca6;"></i></a></a>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#"><img src="assets/pantalon3.jpg" class="card-img-top zoom" alt="pantalon3"></a>
+                    <div class="card-body cards-margin">
+                        <h5 class="card-title fuente-principal card-title-compra">Estrella <small>$35</small></h5>
+                        <p class="card-text"><strong>Estado: </strong>Como nuevo</p>
+                        <a href="#" class="btn btn-primary btn-compras">comprar <i class="fa-solid fa-credit-card"
+                                style="color: #dcdca6;"></i></a></a>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <a href="#"><img src="assets/short.jpg" class="card-img-top zoom" alt="short"></a>
+                    <div class="card-body cards-margin">
+                        <h5 class="card-title fuente-principal card-title-compra">Short <small>$20</small></h5>
+                        <p class="card-text"><strong>Estado: </strong>Como nuevo</p>
+                        <a href="#" class="btn btn-primary btn-compras">comprar <i class="fa-solid fa-credit-card"
+                                style="color: #dcdca6;"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#"><img src="assets/short2.jpg" class="card-img-top zoom" alt="shortverde"></a>
+                    <div class="card-body cards-margin">
+                        <h5 class="card-title fuente-principal card-title-compra">Short verde <small>$30</small>
+                        </h5>
+                        <p class="card-text"><strong>Estado: </strong>Muy usado</p>
+                        <a href="#" class="btn btn-primary btn-compras">comprar <i class="fa-solid fa-credit-card"
+                                style="color: #dcdca6;"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="#"><img src="assets/short3.jpg" class="card-img-top zoom" alt="short3"></a>
+                    <div class="card-body cards-margin">
+                        <h5 class="card-title fuente-principal card-title-compra">Short cargo <small>$150</small></h5>
+                        <p class="card-text"><strong>Estado: </strong>Usado</p>
+                        <a href="#" class="btn btn-primary btn-compras">comprar <i class="fa-solid fa-credit-card"
+                                style="color: #dcdca6;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="page-footer font-small blue pt-4 bg-green footer-margin text-light">
+
+        <div class="container-fluid text-center text-md-left">
+
+            <div class="row">
+
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <h5 class="text-uppercase">Este es mi footer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, repellat debitis illo pariatur
+                        dignissimos ea reprehenderit dolores, deleniti, ullam iusto consequuntur quasi quia explicabo
+                        similique cumque nihil aspernatur autem odio.</p>
+
+                </div>
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <div class="col-md-3 mb-md-0 mb-3">
+
+
+                    <h5 class="text-uppercase">nuestras redes sociales</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-lg"
+                                    style="color: #ffffff;"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter fa-lg"
+                                    style="color: #ffffff;"></i>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/?original_referer=" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in fa-lg" style="color: #ffffff;"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-lg"
+                                    style="color: #ffffff;"></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled links-footer">
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="camisas.html">Camisas</a>
+                        </li>
+                        <li>
+                            <a href="pantalones.html">Pantalones</a>
+                        </li>
+                        <li>
+                            <a href="sobrenosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-copyright text-center py-3">© 2023 Copyright:
+            <a href="/"> zully.clothing</a>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
