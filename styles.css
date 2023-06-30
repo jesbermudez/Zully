@@ -222,5 +222,12 @@
 }
 .btn-compras{
     width: 80%;
-    transition: 1s;
+}
+
+.card-img-top{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.10);
 }
