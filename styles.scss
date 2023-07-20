@@ -249,3 +249,19 @@ $background-color_5: #c9c3c38a;
         transform: scale(1.10);
     }
 }
+
+/* pagina prodcutos */
+
+.btn-productos{
+    border: $color_4 solid 2px;
+    border-radius: 0;
+    margin: 10px;
+}
+
+.btn-productos{
+    &:focus{
+        background-color: $color_4;
+        color: $color_1;
+        border: $color_4;
+    }
+}

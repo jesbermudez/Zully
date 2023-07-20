@@ -1,8 +1,10 @@
+/* colores */
+/* fuentes */
+/* colores de fondo */
 @font-face {
   font-family: planet kosmos;
   src: url(planet_kosmos\ \(1\).zip);
 }
-
 .fuente-principal {
   font-family: "Cormorant Unicase", serif;
 }
@@ -11,6 +13,7 @@
   background-color: #2c532c !important;
 }
 
+/* navBar */
 .dropdown-menu {
   background-color: #dcdca6;
 }
@@ -20,6 +23,7 @@
   color: #dcdca6;
 }
 
+/* pagina principal */
 .img-carrousel {
   height: 90vh;
 }
@@ -52,7 +56,6 @@
   border-radius: 10px;
   margin-top: 15px;
 }
-
 .comentario-boton::before {
   content: "";
   width: 0;
@@ -66,11 +69,9 @@
   display: block;
   z-index: -1;
 }
-
 .comentario-boton:hover {
   color: #2c532c;
 }
-
 .comentario-boton:hover::before {
   width: 105%;
 }
@@ -105,12 +106,12 @@
   border: #2c532c;
   transition: 2s;
 }
-
 .btn-primary:hover {
   background-color: rgba(44, 83, 44, 0.431372549);
   color: #ffffff;
 }
 
+/* pagina contacto */
 .btn-contacto {
   margin: 8px;
 }
@@ -129,6 +130,7 @@
   color: #2c532c;
 }
 
+/* sobre nosotros */
 .sobrenosotros-h1 {
   margin: 16px;
   font-size: 80px;
@@ -151,6 +153,7 @@
   background-color: #dcdca6;
 }
 
+/* footer */
 .footer-margin {
   margin-top: 45px;
 }
@@ -159,6 +162,7 @@
   color: #ffffff;
 }
 
+/* pagina camisas y pantalones */
 .titulo-productos {
   color: #dcdca6;
   background-color: #2c532c;
@@ -184,7 +188,6 @@
   text-decoration: none;
   color: #2c532c;
 }
-
 .links-productos:hover {
   color: #000000;
 }
@@ -207,6 +210,20 @@
 
 .zoom:hover {
   transform: scale(1.1);
+}
+
+/* pagina prodcutos */
+
+.btn-productos {
+  border: #000000 solid 2px;
+  border-radius: 0;
+  margin: 10px;
+}
+
+.btn-productos:focus {
+  background-color: #000000;
+  color: #dcdca6;
+  border: #000000;
 }
 
 /*# sourceMappingURL=styles.css.map */
