@@ -87,9 +87,8 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-3 col-md-6 col-lg-4 bg-green">
+            <div class="col-sm-3 col-md-6 col-lg-4 bg-green alinear">
                 <div class="comentario">
-                    <p class="fuente-principal">
                     <h1 class="comentario-titulo">zully</h1>
                     al adquirir ropa de segunda mano
                     estas contribuyendo al cuidado
@@ -99,7 +98,7 @@
             </div>
             <div class="col-sm-9 col-md-6 col-lg-8 bg-green">
                 <img src="assets/unnamed.enligthed.png" class="img-fluid" alt="camisa enligthed blanca"
-                    style="width: 100%; height: 85vh;">
+                    style="width: 90%; height: 85vh; margin: 20px;">
             </div>
         </div>
     </div>
@@ -108,9 +107,9 @@
         <div class="card cards-inicio">
             <img src="assets/flowermount.jpeg" class="card-img-top" alt="camisa de segunda mano">
             <div class="card-body">
-                <h5 class="card-title">Camisas</h5>
-                <p class="card-text">Camisas de alta calidad y poco uso</p>
-                <a href="camisas.html" class="btn-primary btn"> camisas</a>
+                <h5 class="card-title-index">Camisas</h5>
+                <p class="card-text-index">Camisas de alta calidad y poco uso</p>
+                <a href="camisas.html" class="btn-index btn"> camisas</a>
             </div>
             <div class="card-footer">
                 <small class="text-muted">Zully.clothing</small>
@@ -119,9 +118,9 @@
         <div class="card cards-inicio">
             <img src="assets/pantalonbeige.jpg" class="card-img-top" alt="pantalon de segunda mano">
             <div class="card-body">
-                <h5 class="card-title">Pantalones</h5>
-                <p class="card-text">pantalones que nunca se han usado</p>
-                <a href="pantalones.html" class="btn btn-primary">pantalones</a>
+                <h5 class="card-title-index">Pantalones</h5>
+                <p class="card-text-index">pantalones que nunca se han usado</p>
+                <a href="pantalones.html" class="btn btn-index">pantalones</a>
             </div>
             <div class="card-footer">
                 <small class="text-muted">Zully.clothing</small>
@@ -130,10 +129,11 @@
         <div class="card cards-inicio">
             <img src="assets/angelcamisa.jpg" class="card-img-top" alt="camisa enligthed angel">
             <div class="card-body">
-                <h5 class="card-title">Conoce mas sobre nosotros!</h5>
-                <p class="card-text">Nos encargamos de vender ropa de segunda mano y asi ayudar al ambiente. Si quieres
+                <h5 class="card-title-index">Conoce mas sobre nosotros!</h5>
+                <p class="card-text-index">Nos encargamos de vender ropa de segunda mano y asi ayudar al ambiente. Si
+                    quieres
                     saber un poco mas de nuestro objetivo haz click en este boton :)</p>
-                <a href="sobrenosotros.html" class="btn btn-primary">sobre nosotros</a>
+                <a href="sobrenosotros.html" class="btn btn-index">sobre nosotros</a>
             </div>
             <div class="card-footer">
                 <small class="text-muted">Zully.clothing</small>
@@ -145,12 +145,19 @@
         <div class="container-fluid text-center text-md-left">
 
             <div class="row">
+
                 <div class="col-md-6 mt-md-0 mt-3">
 
-                    <h5 class="text-uppercase">Este es mi footer</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, repellat debitis illo pariatur
-                        dignissimos ea reprehenderit dolores, deleniti, ullam iusto consequuntur quasi quia explicabo
-                        similique cumque nihil aspernatur autem odio.</p>
+                    <form action="#" class="form-footer">
+                        <span class="form-footer-title">Suscribete a nuestro newsletter.</span>
+                        <p class="form-footer-text">Suscribete a nuestro newsletter para ser el primero en enterarte
+                            cada vez que haya mercancia nueva</p>
+                        <div>
+                            <input placeholder="Ingresa tu Email" type="email" name="email" id="email-address"
+                                class="placeholder-footer">
+                            <button type="submit" class="btn-footer">Suscribete</button>
+                        </div>
+                    </form>
 
                 </div>
 
@@ -159,22 +166,22 @@
                 <div class="col-md-3 mb-md-0 mb-3">
 
 
-                    <h5 class="text-uppercase">nuestras redes sociales</h5>
+                    <h5 class="text-uppercase fuente-principal">nuestras redes sociales</h5>
 
                     <ul class="list-unstyled">
-                        <li>
+                        <li class="links-socials">
                             <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-lg"
                                     style="color: #ffffff;"></i></a>
                         </li>
-                        <li>
+                        <li class="links-socials">
                             <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter fa-lg"
                                     style="color: #ffffff;"></i>
                         </li>
-                        <li>
+                        <li class="links-socials">
                             <a href="https://www.linkedin.com/?original_referer=" target="_blank"><i
                                     class="fa-brands fa-linkedin-in fa-lg" style="color: #ffffff;"></i></a>
                         </li>
-                        <li>
+                        <li class="links-socials">
                             <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-lg"
                                     style="color: #ffffff;"></i></a>
                         </li>
@@ -184,7 +191,7 @@
 
                 <div class="col-md-3 mb-md-0 mb-3">
 
-                    <h5 class="text-uppercase">Links</h5>
+                    <h5 class="text-uppercase fuente-principal">Links</h5>
 
                     <ul class="list-unstyled links-footer">
                         <li>
@@ -215,7 +222,6 @@
         </div>
 
     </footer>
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

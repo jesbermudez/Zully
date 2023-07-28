@@ -70,7 +70,7 @@
                 <textarea class="form-control" id="comentario" rows="3" required=""></textarea>
             </div>
             <div class="col-md-12">
-                <button type="submit" class="btn btn-primary btn-contacto">Enviar</button>
+                <button type="submit" class="btn btn-contacto">Enviar</button>
             </div>
         </form>
     </div>
@@ -99,10 +99,16 @@
 
                 <div class="col-md-6 mt-md-0 mt-3">
 
-                    <h5 class="text-uppercase">Este es mi footer</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, repellat debitis illo pariatur
-                        dignissimos ea reprehenderit dolores, deleniti, ullam iusto consequuntur quasi quia explicabo
-                        similique cumque nihil aspernatur autem odio.</p>
+                    <form action="#" class="form-footer">
+                        <span class="form-footer-title">Suscribete a nuestro newsletter.</span>
+                        <p class="form-footer-text">Suscribete a nuestro newsletter para ser el primero en enterarte
+                            cada vez que haya mercancia nueva</p>
+                        <div>
+                            <input placeholder="Ingresa tu Email" type="email" name="email" id="email-address"
+                                class="placeholder-footer">
+                            <button type="submit" class="btn-footer">Suscribete</button>
+                        </div>
+                    </form>
 
                 </div>
 
@@ -111,22 +117,22 @@
                 <div class="col-md-3 mb-md-0 mb-3">
 
 
-                    <h5 class="text-uppercase">nuestras redes sociales</h5>
+                    <h5 class="text-uppercase fuente-principal">nuestras redes sociales</h5>
 
                     <ul class="list-unstyled">
-                        <li>
+                        <li class="links-socials">
                             <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-lg"
                                     style="color: #ffffff;"></i></a>
                         </li>
-                        <li>
+                        <li class="links-socials">
                             <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter fa-lg"
                                     style="color: #ffffff;"></i>
                         </li>
-                        <li>
+                        <li class="links-socials">
                             <a href="https://www.linkedin.com/?original_referer=" target="_blank"><i
                                     class="fa-brands fa-linkedin-in fa-lg" style="color: #ffffff;"></i></a>
                         </li>
-                        <li>
+                        <li class="links-socials">
                             <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-lg"
                                     style="color: #ffffff;"></i></a>
                         </li>
@@ -136,7 +142,7 @@
 
                 <div class="col-md-3 mb-md-0 mb-3">
 
-                    <h5 class="text-uppercase">Links</h5>
+                    <h5 class="text-uppercase fuente-principal">Links</h5>
 
                     <ul class="list-unstyled links-footer">
                         <li>
@@ -167,7 +173,6 @@
         </div>
 
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
