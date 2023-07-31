@@ -5,12 +5,23 @@
   font-family: planet kosmos;
   src: url(planet_kosmos\ \(1\).zip);
 }
+.fuente-zully {
+  font-family: planet kosmos;
+}
+
 .fuente-principal {
   font-family: "Cormorant Unicase", serif;
 }
 
 .bg-green {
   background-color: #2c532c !important;
+}
+
+.btn-carousel {
+  color: #000000;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 /* navBar */
@@ -116,6 +127,18 @@
   color: #2c532c;
 }
 
+.carousel-titulo {
+  font-size: 70px;
+  margin: 50px;
+  text-transform: uppercase;
+}
+
+.carousel-texto {
+  font-size: 24px;
+  margin: 40px;
+  font-family: inherit;
+}
+
 /* pagina contacto */
 .btn-contacto {
   margin: 10px;
@@ -158,15 +181,18 @@
 
 .titulos-sn {
   color: #2c532c;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.texto-sn {
+  font-size: 18px;
+  margin: 10px;
 }
 
 .imagenes-sn {
   height: 70vh;
   width: 100%;
-}
-
-.color-fondo {
-  background-color: #dcdca6;
 }
 
 /* footer */
@@ -296,9 +322,9 @@
   transform: scale(1.1);
 }
 
-/* pagina prodcutos */
+/* pagina productos */
 .ancho {
-  width: 85%;
+  width: 95%;
 }
 
 .h1-producto {
@@ -343,6 +369,23 @@
 .share-link {
   text-decoration: none;
   color: #000000;
+}
+
+/* guia de tallas */
+.tallas-list {
+  margin: 5px;
+}
+
+.same-width li {
+  text-align: left;
+  width: 29vw;
+  letter-spacing: 1px;
+}
+
+.tallas-titulos {
+  text-align: center;
+  margin: 20px;
+  font-size: 4em;
 }
 
 /*# sourceMappingURL=styles.css.map */
